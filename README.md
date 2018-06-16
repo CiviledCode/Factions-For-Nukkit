@@ -4,9 +4,8 @@ This plugin will allow the players on the server to create factions/guilds. The 
 
 The goals of this plugin:
 
- * The players should be able to take care of anti-griefing themselves.
- * Inspire politics and intrigues on your server.
- * Guilding and team spirit! :)
+* Creating a Factions API for other plugins
+
 
 Usage
 ---------
@@ -35,14 +34,16 @@ Note that you may optionally skip the slash and just write
 
 Installing
 ----------
-1. Compile using github and Maven. Once this is stable I will release it.
 1. Put Factions.jar in the plugins folder.
-You can also download it here: https://mega.nz/#!3FlR2ZpJ!RkUljAttEVtZBF8RdearGkKjaWvH6rumHbMsIHEBWh0
 
 A default config file will be created on the first run.
+
+Disclamer
+---------
+I am not the original creator of this plugin. I strongly advise that you check him out here: https://github.com/imjack
+I forked this repo so I could add an API side of things to add functionality for other plugins such as HCF, Havoc Factions, and more!
 
 License
 ----------
 This project has a LGPL license.<br>
 This project uses [GSON](http://code.google.com/p/google-gson/) which has a [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0 ).
-
